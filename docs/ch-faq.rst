@@ -2,7 +2,10 @@
 
 .. contents::
     :local:
-    :depth: 2
+    :depth: 3
+
+Common Interview Questions
+##########################
 
 Transformer
 ===========
@@ -128,7 +131,7 @@ Conclusion:
 
 The number of layers in a transformer model is a crucial hyperparameter that should be chosen based on the task's complexity, data availability, and computational resources. While deeper models can capture more complex patterns, they also require more data and computational power to train effectively. Starting with established architectures and iteratively tuning the number of layers based on validation performance is a practical approach to finding the right configuration.
 
-**When fine-tuning a Transformer for text data (i.e. a language model), how to handle unseen vocabulary which might not have been seen by the model in pre-training? Should the tokenizer vocabulary need to be extended?**
+**When fine-tuning a Transformer for text data (i.e. a language model), how to handle unseen vocabulary which might not have been seen by the model in pre-training? Should the tokenizer vocabulary be extended?**
 *****************************************************************************************************************************************************************************************************************************
 
 When fine-tuning a Transformer-based language model for text data, handling unseen vocabulary that wasn't part of the model's pre-training requires careful consideration. Here are the steps and best practices to address this:
